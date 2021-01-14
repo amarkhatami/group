@@ -10,9 +10,7 @@
     }
 
 
-body {
-    background-color: white;
-    }
+body {background:url(img/idg2.jpg); background-repeat:repeat;background-size:40%;}
 
 a:link,a:visited {
     text-decoration: none; 
