@@ -7,6 +7,7 @@
 
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -20,116 +21,116 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		
 
-		<title>Indulgence Bakery</title>
+		<title>Indulgence Bakery — About</title>
 
 			<style>
 
-{
-  box-sizing: border-box;
-}
+				{
+				box-sizing: border-box;
+				}
 
-/* The actual timeline (the vertical ruler) */
-.timeline {
-  position: relative;
-  max-width: 100%;
-  margin:auto;
-}
+				/* The actual timeline (the vertical ruler) */
+				.timeline {
+				position: relative;
+				max-width: 100%;
+				margin:auto;
+				}
 
-/* The actual timeline (the vertical ruler) */
-.timeline::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  background-color: #000;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  margin-left: 0px;
-}
+				/* The actual timeline (the vertical ruler) */
+				.timeline::after {
+				content: '';
+				position: absolute;
+				width: 0;
+				background-color: #000;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				margin-left: 0px;
+				}
 
-/* Container around content */
-.container {
-  padding: 0px 0px;
-  position: relative;
-  background-color: #;
-  width: 40%;
-}
+				/* Container around content */
+				.container {
+				padding: 0px 0px;
+				position: relative;
+				background-color: #;
+				width: 40%;
+				}
 
-/* Place the container to the left */
-.left {
-  right: 21%;
-}
+				/* Place the container to the left */
+				.left {
+				  right: 21%;
+				}
 
-/* Place the container to the right */
-.right {
-  left: 21%;
-}
+				/* Place the container to the right */
+				.right {
+				  left: 21%;
+				}
 
-/* Add arrows to the left container (pointing right) */
-.left::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 30px;
-  border: medium solid #000;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent transparent;
-}
+				/* Add arrows to the left container (pointing right) */
+				.left::before {
+				  content: " ";
+				  height: 0;
+				  position: absolute;
+				  top: 22px;
+				  width: 0;
+				  z-index: 1;
+				  right: 30px;
+				  border: medium solid #000;
+				  border-width: 10px 0 10px 10px;
+				  border-color: transparent transparent transparent transparent;
+				}
 
-/* Add arrows to the right container (pointing left) */
-.right::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent transparent transparent transparent;
-}
+				/* Add arrows to the right container (pointing left) */
+				.right::before {
+				  content: " ";
+				  height: 0;
+				  position: absolute;
+				  top: 22px;
+				  width: 0;
+				  z-index: 1;
+				  left: 30px;
+				  border: medium solid white;
+				  border-width: 10px 10px 10px 0;
+				  border-color: transparent transparent transparent transparent;
+				}
 
-/* The actual content */
-.content {
-  padding: 20px;
-  background-color: #fff;
-  position: relative;
-  border-radius: 20px;box-shadow: 4px 4px 4px 0px #ddd;cursor:help;
-}
+				/* The actual content */
+				.content {
+				  padding: 20px;
+				  background-color: #fff;
+				  position: relative;
+				  border-radius: 10px;box-shadow: 4px 4px 4px 0px #ddd;
+				  cursor:help;
+				}
 
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
-  /* Place the timelime to the left */
-  .timeline::after {
-  left: 31px;
-  }
-  
-  /* Full-width containers */
-  .container {
-  width: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
-  }
-  
-  /* Make sure that all arrows are pointing leftwards */
-  .container::before {
-  left: 60px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
-  }
-  
-  /* Make all right containers behave like the left ones */
-  .right {
-  left: 0%;
-  }
-}
+				/* Media queries - Responsive timeline on screens less than 600px wide */
+				@media screen and (max-width: 600px) {
+				  /* Place the timelime to the left */
+				  .timeline::after {
+				  left: 31px;
+				  }
+				  
+				  /* Full-width containers */
+				  .container {
+				  width: 100%;
+				  padding-left: 50px;
+				  padding-right: 50px;
+				  }
+				  
+				  /* Make sure that all arrows are pointing leftwards */
+				  .container::before {
+				  left: 60px;
+				  border: medium solid white;
+				  border-width: 10px 10px 10px 0;
+				  border-color: transparent white transparent transparent;
+				  }
+				  
+				  /* Make all right containers behave like the left ones */
+				  .right {
+				  left: 0%;
+				  }
+				}
 
 				::-webkit-scrollbar {
 					height: auto;
@@ -144,13 +145,13 @@
 
 				]]></b:skin>
 	
-				{
+					{
 					  background-color: transparent;
 					  font-family: cursive;
 					}
 
 					.glow {
-					  font-size: 40px;margin-bottom:50px;margin-top:50px;
+					  font-size: 40px;margin-bottom:100px;margin-top:113px;
 					  color: #fff;border-bottom:0px solid #000;
 					  text-align: center;
 					  -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -160,23 +161,26 @@
 
 					@-webkit-keyframes glow {
 					  from {
-						text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+						text-shadow: 0 0 0px #fff, 0 0 10px #fff, 0 0 20px #FF0000, 0 0 20px #FF0000, 0 0 30px #FF0000, 0 0 40px #FF0000, 0 0 50px #FF0000;
 					  }
 					  
 					  to {
-						text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+						text-shadow: 0 0 20px #FF0000, 0 0 30px #FF0000, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff, 0 0 80px #fff;
 					  }
 					}
 
-					{
-					  font-family: Arial, Helvetica, sans-serif;
-					}
+					
 
 					.flip-card {
-					  background-color: #transparent;
+					  background-color: transparent;
 					  width: 300px;
 					  height: 300px;
 					  perspective: 1000px;
+					  margin:auto;
+					  margin-top:33px;
+					  margin-bottom:20px;
+					  cursor:help;
+					  
 					}
 
 					.flip-card-inner {
@@ -186,7 +190,7 @@
 					  text-align: center;
 					  transition: transform 0.6s;
 					  transform-style: preserve-3d;
-					  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+					  
 					}
 
 					.flip-card:hover .flip-card-inner {
@@ -202,19 +206,26 @@
 					}
 
 					.flip-card-front {
-					  background-color: #bbb;
-					  color: black;
+					  background-color: #fff;
+					  color: #000;
 					}
 
 					.flip-card-back {
-					  background-color: #6f4e37;
+					  background-color: #fefcef;
 					  color: #000;
 					  transform: rotateY(180deg);
+					  box-shadow:4px 4px 4px 0px #ddd;
+					  border-radius:10px;
 					}
+					
+					
+													
+                
+					
 
 				a:link,a:visited {
 					text-decoration: none; 
-					color: #6F4E37; 
+					color: #000; 
 					transition-duration: 0.3s;
 					font-weight: none;
 					}
@@ -228,15 +239,18 @@
 					}
 
 				h1 {
-					font-size: 40px; 
-					color: white; 
-					font-stye: none; 
+					font-size: 15px; 
+					color: black; 
+					font-style: none; 
 					font-family: rubik;  
 					padding: 0px; 
 					border-radius: 0px; 
 					text-align: center;
 					border: 0px dotted tomato;
 					transition-duration: 0.3s;
+					border-bottom:1px solid #eee;
+					padding-bottom:10px;
+					font-weight:bold;
 					}
 
 				h2 {
@@ -571,7 +585,7 @@
  
 .mySlides {display:none;}
 .w3-left, .w3-right, .w3-badge {cursor:pointer;}
-.w3-badge {height:13px;width:13px;padding:0;}
+.w3-badge {height:13px;width:13px;padding:0}
 
 #repeat { background-repeat: repeat; }
 
@@ -589,8 +603,8 @@
 				<div id="sebelum">
 					<div class="navisatu">
 						<ul>
-							<a class="active" href="index.html">HOME</a>
-							<a href="about.html">ABOUT</a>
+							<a href="index.html">HOME</a>
+							<a class="active" href="about.html">ABOUT</a>
 							<a href="product.html">PRODUCTS</a>
 							<a href="contact.html">CONTACT</a>
 						</ul>
@@ -601,12 +615,12 @@
 				<div id="selepas">
 					<div class="navidua">
 						<div class="robot">
-						<a class="active" href="index.html">HOME</a>
-						<a href="about.html">ABOUT</a>
+						<a href="index.html">HOME</a>
+						<a class="active" href="about.html">ABOUT</a>
 						<a href="product.html">PRODUCTS</a>
 						<a href="contact.html">CONTACT</a>
 						</div>
-					</div>	
+					</div>
 				</div>
 				</center>
 
@@ -631,98 +645,69 @@
 
 
 		
-<div style="margin:auto; width:100%; margin-top:150px;">
+				<div style="margin:auto; width:100%; margin-top:50px;"><center>
 
+					<h1 class="glow"><b>EVERY TASTE IS DIFFERENT</b></h1>
+					<div class="timeline">
+						<div class="container left">
+							<div class="content">
+								<h1>GET TO KNOW INDULGENCE BAKERY</h1>
+								<center><img src="img/idg1.jpg" style="margin-top:10px;width:70%;box-shadow:0px 0px 0px 0px #000;"></center>
+								<p style="margin-bottom:0px;">Founded in December 2020, the name of the company, <b>Indulgence Bakery</b>, was chosen because it represents our signature dish, Chocolate Indulgence Cake, that will surely make the customer remember the unique and different taste, made from the best techniques and ingredients. <br><br>All of our products are baked to perfection by the best pastry chefs in town that took a lot of aspects into consideration in order to make sure the products are the best.</p>
+							</div>
+						</div>
+						<div class="container right" style="margin-top:-433px;">
+							<div class="content">
+								<h1>VISION</h1>
+								<p style="margin-bottom:0px;">To be the leading, competitive and world largest brand that impacts the quality of life of others in producing quality food.</p>
+							</div>	
+						</div>
+						<div class="container right" style="margin-top:50px;">
+							<div class="content">
+								<h1>MISSION</h1>
+								<p style="margin-bottom:0px;">Our mission is to be a favoured corporate citizen, favoured employer, favoured supplier selling favored products.</p>
+							</div>
+						</div>
+						
+						<div class="container left" style="margin-top:90px;">
+							<div class="content">
+								<h1>FOUNDER</h1>
+									<div class="flip-card" style="height:320px;">
+										<div class="flip-card-inner">
+											<div class="flip-card-front">
+												<img src="img/image1.jpg" style="width:320px;height:auto;float:center;">
+											</div>
+													<div class="flip-card-back" style="width:320px;height:308px;margin:auto;">
+														<h1>Amerul Emir Bin Hashim</h1> 
+														<p>The founder of <b>Indulgence Bakery</b>, a 21 years old entrepreneur born in Ampang, Selangor, <br><br>Amerul Emir</b> has been in the culinary industry for 6 years since 2017. With the mixture of Bachelor's Degree in Culinary and handful of experience working with the best local cooks, Amerul opened the bakery in December 2020.</p></center>
+													</div>
+										</div>					
+									</div>
+							</div>
+						</div>
+						
+						<div class="container right" style="margin:-457px auto auto auto;">
+							<div class="content">
+								<h1>LOCATION</h1>
+								<div class="flip-card" style="height:320px;">
+									<div class="flip-card-inner">
+										<div class="flip-card-front">
+											<img src="img/image2.jpg" style="width:400px;height:auto;margin-left:-50px;margin-top:15px;">
+										</div>
+												<div class="flip-card-back" style="width:400px;height:273px;margin-left:-50px;margin-top:15px;">
+													<h1>Address</h1>
+													<p>Indulgence Bakery, No. 14, Jalan Raja Dihilir, 30350, Ipoh,  Perak.<br><br>Business hours: 10 a.m. till 10 p.m., Monday - Friday, excluding public holidays.</p>
+												</div>
+									</div>
+								</div>
+							</div>													
+						</div>
+						
+						
 
-<div class="w3-content w3-display-container" style="width:50%;margin:auto;">
-  <img title="Chocolate Indulgence Cake" class="mySlides" src="img/1.jpg" style="width:100%">
-  <img title="Black Forest Cake" class="mySlides" src="img/2.jpg" style="width:100%">
-  <img title="Red Velvet Cake" class="mySlides" src="img/3.jpg" style="width:100%">
-  <img title="Blueberry Cheesecake" class="mySlides" src="img/4.jpg" style="width:100%">
-  <img title="Triple Choc Cheesecake" class="mySlides" src="img/5.jpg" style="width:100%">
-  <img title="Chocolate Mud Cake" class="mySlides" src="img/6.jpg" style="width:100%">
-  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)" style="cursor:pointer;">&#10094;</div>
-    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)" style="cursor:pointer;">&#10095;</div>
-    
-  </div>
-</div>
-
-
-<center><br><br><br><br>
-
-<iframe width="765" height="520" style="box-shadow: 4px 4px 4px 0px #ddd;border-radius:10px;" src="https://www.youtube.com/embed/uGxgpIvZirQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-</center>
-
-			
-
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 3000); // Change image every 2 seconds
-}
-</script>
-
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-white";
-}
-</script>
-
-
-
-<p style="text-align:center; font-size:25px; margin-top:100px; ">Don't lose the opportunity to taste the best of Indulgence Bakery products,<br> get yours now!<br><br><br><br>Contact us below:</p>
-
-<p><center>
-<img src="https://i.pinimg.com/originals/63/9b/3d/639b3dafb544d6f061fcddd2d6686ddb.png" style="width:100px;box-shadow:0px 0px 0px 0px #000;"><a target="_blank" href="http://instagram.com/indulgencebakeryco" style="color:#000;">@indulgencebakeryco</a>&nbsp;&nbsp;&nbsp;
-<img src="img/twitter.png" style="width:68px;box-shadow:0px 0px 0px 0px #000;">&nbsp;&nbsp;&nbsp;<a target="_blank" href="http://twitter.com/indulgence_bake" style="color:#000;">@indulgence_bake</a>&nbsp;&nbsp;&nbsp;
-<img src="img/facebook.png" style="width:68px;box-shadow:0px 0px 0px 0px #000;">&nbsp;&nbsp;&nbsp;<a target="_blank" href="http://facebook.com" style="color:#000;">Indulgence Bakery</a>&nbsp;&nbsp;&nbsp;
-<img src="img/whatsapp.png" style="width:66px;box-shadow:0px 0px 0px 0px #000;">&nbsp;&nbsp;&nbsp;<a target="_blank" href="http://wasap.me/0123456789" style="color:#000;">+60123456789</a>&nbsp;&nbsp;&nbsp;
-<img src="img/email.png" style="width:66px;box-shadow:0px 0px 0px 0px #000;">&nbsp;&nbsp;&nbsp;<a target="_blank" href="http://mailto:indulgencebakeryco@gmail.com" style="color:#000;">indulgencebakeryco@gmail.com</a>&nbsp;&nbsp;&nbsp;
-</center></p>
-
-
-
-
-
-					
+					</div>
+					</center>
 				</div>
-			</div>
-		</div>
 
 		<script>
 			/*Scroll to top when arrow up clicked BEGIN*/
@@ -746,12 +731,12 @@ function showDivs(n) {
 			/*Scroll to top when arrow up clicked END*/
 		</script>
 
-		<a id="back2Top" title="Back to top" href="#" style="background-color:transparent;"><img style="width:50px;box-shadow:0px 0px 0px 0px #000;" src="img/up.png"></a>
+		<a id="back2Top" title="Back to top" style="background-color:transparent;" href="#"><img style="width:50px;box-shadow:0px 0px 0px 0px #000;" src="img/up.png"></a>
 
 
 
 		<div class="jumbotron1">
-			<p1>© 2021 <a href="#" style="color: white;">INDULGENCE BAKERY SDN BHD.</a> ALL RIGHTS RESERVED</p1>
+			<p1>© 2020 <a href="#" style="color: white;">INDULGENCE BAKERY SDN BHD.</a> ALL RIGHTS RESERVED</p1>
 		</div>
 
 
